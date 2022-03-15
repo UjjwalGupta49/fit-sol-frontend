@@ -1,0 +1,26 @@
+.alignButtonTopRight {
+  position: absolute;
+  top: 0;
+  right: 0;
+  align-items: flex-start;
+  padding: 5px;
+}
+
+.baseAppText {
+  color: white;
+  text-decoration: none;
+  font-family: "DM Sans", "Roboto", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarPosition {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
